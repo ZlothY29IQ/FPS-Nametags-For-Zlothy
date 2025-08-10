@@ -30,7 +30,8 @@ public class Nametag : MonoBehaviour
 
     private void CreateNametag(ref GameObject tagObj, ref TextMeshPro tagText, string name, string layerName)
     {
-        tagObj = new GameObject(name);
+        tagObj = new GameObject(name, typeof(Canvas), typeof(RectTransform));
+        tagObj.GetComponent<Canvas>().renderMode = RenderMode.WorldSpace;
         tagObj.transform.SetParent(transform);
         tagObj.transform.localPosition = new Vector3(0f, 0.7f, 0f);
         
@@ -40,6 +41,7 @@ public class Nametag : MonoBehaviour
         tagText.fontSize = 2f;
         tagText.alignment = TextAlignmentOptions.Center;
         tagText.font = Plugin.comicSans;
+        tagText.font.material.shader = Shader.Find("TextMeshPro/Distance Field");
     }
 
     private void Update()

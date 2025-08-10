@@ -13,11 +13,6 @@ public class FPSTag : MonoBehaviour
     private TextMeshPro thirdPersonTagText;
     
     private VRRig rig;
-    
-    private void Start()
-    {
-        StartCoroutine(DelayedStart());
-    }
 
     private IEnumerator DelayedStart()
     {
@@ -45,6 +40,7 @@ public class FPSTag : MonoBehaviour
         tagText.fontSize = 2f;
         tagText.alignment = TextAlignmentOptions.Center;
         tagText.font = Plugin.comicSans;
+        tagText.font.material.shader = Shader.Find("TextMeshPro/Distance Field");
     }
 
     private void Update()
@@ -75,4 +71,6 @@ public class FPSTag : MonoBehaviour
         firstPersonTagText.color = tagColour;
         thirdPersonTagText.color = tagColour;
     }
+    
+    private void Start() => StartCoroutine(DelayedStart());
 }
