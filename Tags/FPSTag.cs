@@ -72,5 +72,11 @@ public class FPSTag : MonoBehaviour
         thirdPersonTagText.color = tagColour;
     }
     
+    private void OnDestroy()
+    {
+        Destroy(firstPersonTag);
+        Destroy(thirdPersonTag);
+    }
+    
     private void Start() => StartCoroutine(DelayedStart());
 }

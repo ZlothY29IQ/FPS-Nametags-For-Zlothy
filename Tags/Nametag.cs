@@ -55,6 +55,12 @@ public class Nametag : MonoBehaviour
         firstPersonTagText.text = player.NickName;
         thirdPersonTagText.text = player.NickName;
     }
+
+    private void OnDestroy()
+    {
+        Destroy(firstPersonTag);
+        Destroy(thirdPersonTag);
+    }
     
     private void Start() => player = GetComponent<VRRig>().OwningNetPlayer;
 }
