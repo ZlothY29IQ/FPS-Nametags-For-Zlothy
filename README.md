@@ -13,7 +13,7 @@
 ### -Cosmetics - Only shows rare cosmetics such as Finger Painter, Admin Badge, exc. If someone own that cosmetic youll see it.
 
 
-
+<img src="https://i.imgur.com/DnLpcCX.png">
 
 <img src="https://i.imgur.com/odoLLip.jpeg">
 
