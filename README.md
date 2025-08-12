@@ -1,16 +1,16 @@
-Images of stuff idk
+# Images of stuff idk
 
-Image Icon Meanings:
+## Image Icon Meanings:
 
--Pirate - CosmetX (or just wearing cosmetics they dont own - may show if someone is trying on a cosmetic in city)
+### -Pirate - CosmetX (or just wearing cosmetics they dont own - may show if someone is trying on a cosmetic in city)
 
--Red Exclaimation Point - using at least of these cheats: ObsidianMC, Genesis, Elux, Violet Free, Violet, Hidden, Void, CCMV2, Cronos, Orbit, Vivid.
+### -Red Exclaimation Point - using at least of these cheats: ObsidianMC, Genesis, Elux, Violet Free, Violet, Hidden, Void, CCMV2, Cronos, Orbit, Vivid.
 
--Traffic Light - Me (ZlothY, reworker)
+### -Traffic Light - Me (ZlothY, reworker)
 
--Purple Hat - HanSoloMillenniumFaclon (Original creator)
+### -Purple Hat - HanSoloMillenniumFaclon (Original creator)
 
--Cosmetics - Only shows rare cosmetics such as Finger Painter, Admin Badge, exc. If someone own that cosmetic youll see it.
+### -Cosmetics - Only shows rare cosmetics such as Finger Painter, Admin Badge, exc. If someone own that cosmetic youll see it.
 
 
 
