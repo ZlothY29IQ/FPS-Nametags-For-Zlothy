@@ -4,7 +4,7 @@
 
 ### -Pirate - CosmetX (or just wearing cosmetics they dont own - may show if someone is trying on a cosmetic in city)
 
-### -Red Exclaimation Point - using at least of these cheats: ObsidianMC, Genesis, Elux, Violet Free, Violet, Hidden, Void, CCMV2, Cronos, Orbit, Vivid.
+### -Red Exclaimation Point - using at least one of these cheats: ObsidianMC, Genesis, Elux, Violet Free, Violet, Hidden, Void, CCMV2, Cronos, Orbit, Vivid.
 
 ### -Traffic Light - Me (ZlothY, reworker)
 
